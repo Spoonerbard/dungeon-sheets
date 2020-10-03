@@ -19,6 +19,15 @@ class MagicItem():
         return '\"{:s}\"'.format(str(self))
 
 
+class RapierOfWarning(MagicItem):
+    """
+    1d8 piercing - finesse, advantage on initiative, 30ft can't be surprised while awake, 
+    """
+    name = "Rapier of Warning"
+    requires_attunement = True
+    rarity = 'Uncommon'
+
+
 class CloakOfProtection(MagicItem):
     """
     You gain a +1 bonus to AC and Saving Throws while wearing this cloak.
