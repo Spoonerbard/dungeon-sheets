@@ -284,11 +284,13 @@ class OathOfRedemption(PaladinOath):
 
 # Custom
 class OathOfDeliverance(PaladinOath):
-    """[summary]
+    """[summary] The oath of delivery is sworn to uphold promises wmade when a package is put
+    into their
 
     Args:
         PaladinOath ([type]): [description]
     """
+    
     name = "Oath of Deliverance"
     _oath_spells = {3: [spells.IllusoryDragon, spells.AnimalFriendship],
                     5: [spells.AnimalMessenger, spells.Knock],
@@ -296,7 +298,7 @@ class OathOfDeliverance(PaladinOath):
                     13: [spells.FreedomOfMovement,
                          spells.MordenkainensPrivateSanctum],
                     17: [spells.Mislead, spells.Telekinesis]}
-    features_by_level = defaultdict[list]
+    features_by_level = defaultdict(list)
     features_by_level[3] = [features.DivineDelivery,
                             features.PersonalTransportation]
     features_by_level[7] = [features.AuraOfPromptness]

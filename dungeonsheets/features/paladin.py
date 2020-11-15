@@ -313,7 +313,10 @@ class EmissaryOfRedemption(Feature):
 
 class DivineDelivery(Feature):
     """[summary] When you take this oath at 3rd lvl, you gain the following
-    two channel divinity options.
+    two channel divinity options. As an action, you can summon a package,
+    containing one non-magical weapon, the package can appear in front of you
+    or an ally within 60ft. only one weapon can be summoned at a time and they
+    will last uintil they are dismissed for up to one day.
 
     Args:
         Feature ([type]): [description]
@@ -323,7 +326,9 @@ class DivineDelivery(Feature):
 
 
 class PersonalTransportation(Feature):
-    """[summary]
+    """[summary] As a bonus action you can mark an ally within 60 feet, the next time
+    the ally takes damage from an attack, you can teleport them up to 15ft away
+    from the source of the damage and heal 1d8 hit points.
 
     Args:
         Feature ([type]): [description]
@@ -333,7 +338,12 @@ class PersonalTransportation(Feature):
 
 
 class AuraOfPromptness(Feature):
-    """[summary]
+    """[summary] At 7th level, you emnate an aura of responsibility and haste while
+    you're not incapciated. The aura extends 10ft from you in all directions but not
+    through total cover. allies in the aura are given an extra 5 feet to their movement
+    speed and once per encounter they can speed up and use their bonus action to take
+    a second normal action.
+    At 18th lvl the range of this aura increases to 30 ft.
 
     Args:
         Feature ([type]): [description]
@@ -343,7 +353,12 @@ class AuraOfPromptness(Feature):
 
 
 class StampTarget(Feature):
-    """[summary]
+    """[summary] at 15th lvl, you can imbue stamps with divine power. a bonus action you
+    can attach a stamp to a creature within range of you. you gain advantage on attack 
+    rolls against the marked creature, and on a critical hit can teleport them up to 
+    10 feet. Only one creature may be stamped at any time. you can use this ability 
+    an amount of times equal to your charisma modifier (min 1). you regain expended
+    uses when you finish a long rest.
 
     Args:
         Feature ([type]): [description]
@@ -353,7 +368,14 @@ class StampTarget(Feature):
 
 
 class UnstoppableCourier(Feature):
-    """[summary]
+    """[summary] when you achieve 20th lvl you gain ability to access incredible shipping
+    power. as an action you can magically become an avatar of deliverance gaining the
+    following benefits for 1 hours.
+    Movement is doubled, and all allies with 60 feet gain an additional 10 ft 
+    you have adv on dex saving throws and all allies in 30 ft do as well.
+    as a bonus action you can move any item in your inventory to another creature
+    within 100 feet of you.
+    recharges on a long rest.
 
     Args:
         Feature ([type]): [description]
