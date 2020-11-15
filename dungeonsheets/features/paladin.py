@@ -309,3 +309,54 @@ class EmissaryOfRedemption(Feature):
     """
     name = "Emissary of Redemption"
     source = "Paladin (Oath of Redemption)"
+
+
+class DivineDelivery(Feature):
+    """[summary] When you take this oath at 3rd lvl, you gain the following
+    two channel divinity options.
+
+    Args:
+        Feature ([type]): [description]
+    """
+    name = "Divine Delivery"
+    source = "Paladin (Oath of Deliverance)"
+
+
+class PersonalTransportation(Feature):
+    """[summary]
+
+    Args:
+        Feature ([type]): [description]
+    """
+    name = "Personal Transportation"
+    source = "Paladin (Oath of Deliverance)"
+
+
+class AuraOfPromptness(Feature):
+    """[summary]
+
+    Args:
+        Feature ([type]): [description]
+    """
+    name = "Aura Of Promptness"
+    source = "Paladin (Oath of Deliverance)"
+
+
+class StampTarget(Feature):
+    """[summary]
+
+    Args:
+        Feature ([type]): [description]
+    """
+    name = "Stamp Target"
+    source = "Paladin (Oath of Deliverance)"
+
+
+class UnstoppableCourier(Feature):
+    """[summary]
+
+    Args:
+        Feature ([type]): [description]
+    """
+    name = "Unstoppable Courier"
+    source = "Paladin (Oath of Deliverance)"

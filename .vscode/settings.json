@@ -1,0 +1,17 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.preferredDarkColorTheme": "Nord",
+    "python.formatting.provider": "black",
+    "gruvboxMaterial.lightCursor": "yellow",
+    "workbench.colorTheme": "Material Theme Darker",
+    "explorer.incrementalNaming": "smart",
+    "search.collapseResults": "alwaysCollapse",
+    "search.showLineNumbers": true,
+    "search.useGlobalIgnoreFiles": true,
+    "search.smartCase": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": true
+}

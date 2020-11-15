@@ -283,6 +283,28 @@ class OathOfRedemption(PaladinOath):
 
 
 # Custom
+class OathOfDeliverance(PaladinOath):
+    """[summary]
+
+    Args:
+        PaladinOath ([type]): [description]
+    """
+    name = "Oath of Deliverance"
+    _oath_spells = {3: [spells.IllusoryDragon, spells.AnimalFriendship],
+                    5: [spells.AnimalMessenger, spells.Knock],
+                    9: [spells.Sending, spells.Tongues],
+                    13: [spells.FreedomOfMovement,
+                         spells.MordenkainensPrivateSanctum],
+                    17: [spells.Mislead, spells.Telekinesis]}
+    features_by_level = defaultdict[list]
+    features_by_level[3] = [features.DivineDelivery,
+                            features.PersonalTransportation]
+    features_by_level[7] = [features.AuraOfPromptness]
+    features_by_level[15] = [features.StampTarget]
+    features_by_level[20] = [features.UnstoppableCourier]
+
+
+# Custom
 class OathOfZor(PaladinOath):
     """The Oath of Zor
 

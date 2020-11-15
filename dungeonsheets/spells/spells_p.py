@@ -910,4 +910,3 @@ class Pyrotechnics(Spell):
     magic_school = "Transmutation"
     classes = ('Bard', 'Sorcerer', 'Wizard')
 
-
