@@ -372,7 +372,7 @@ class Paladin(CharClass):
     features_by_level[14] = [features.CleansingTouch]
     subclasses_available = (OathOfDevotion, OathOfAncients, OathOfVengeance,
                             OathOfCrown, OathOfConquest, OathOfRedemption,
-                            OathOfZor)
+                            OathOfZor, OathOfDeliverance)
     spellcasting_ability = 'charisma'
     spell_slots_by_level = {
         # char_lvl: (cantrips, 1st, 2nd, 3rd, ...)
