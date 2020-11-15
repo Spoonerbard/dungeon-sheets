@@ -292,7 +292,7 @@ class OathOfDeliverance(PaladinOath):
     """
     
     name = "Oath of Deliverance"
-    _oath_spells = {3: [spells.IllusoryDragon, spells.AnimalFriendship],
+    _oath_spells = {3: [spells.IllusoryScript, spells.AnimalFriendship],
                     5: [spells.AnimalMessenger, spells.Knock],
                     9: [spells.Sending, spells.Tongues],
                     13: [spells.FreedomOfMovement,
