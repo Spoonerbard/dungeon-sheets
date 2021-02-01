@@ -6,12 +6,13 @@
     "workbench.preferredDarkColorTheme": "Nord",
     "python.formatting.provider": "black",
     "gruvboxMaterial.lightCursor": "yellow",
-    "workbench.colorTheme": "Andromeda Italic Bordered",
+    "workbench.colorTheme": "Atlantic Night",
     "explorer.incrementalNaming": "smart",
     "search.collapseResults": "alwaysCollapse",
     "search.showLineNumbers": true,
     "search.useGlobalIgnoreFiles": true,
     "search.smartCase": true,
     "debug.allowBreakpointsEverywhere": true,
-    "debug.inlineValues": true
+    "debug.inlineValues": true,
+    "python.pythonPath": "/bin/python3"
 }

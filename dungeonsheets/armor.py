@@ -215,7 +215,7 @@ class ElvenChain(MediumArmor):
     base_armor_class = 14
     dexerity_mod_max = 2
     weight = 20
-    
+
 
 light_armors = [PaddedArmor, LeatherArmor, StuddedLeatherArmor]
 medium_armors = [HideArmor, ChainShirt, ScaleMail, Breastplate, HalfPlate]

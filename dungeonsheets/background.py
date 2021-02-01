@@ -111,6 +111,8 @@ class Sailor(Background):
 
 class Pirate(Sailor):
     name = "Pirate"
+    skill_proficiencies = ('')
+    features = (feats.BadReputation,)
 
 
 class Soldier(Background):
