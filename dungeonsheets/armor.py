@@ -35,7 +35,7 @@ class NoShield(Shield):
     name = "No shield"
     cost = "0"
     base_armor_class = 0
-    
+
     def __str__(self):
         return self.name
 
@@ -62,7 +62,7 @@ class Armor():
       light, medium, or heavy
     weight : int
       In lbs.
-    
+
     """
     name = "Unknown Armor"
     cost = "0 gp"
